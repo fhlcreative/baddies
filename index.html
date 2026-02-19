@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baddies Burger House</title>
+  <meta name="description" content="Come grab a smash-burger, hand cut fries & housemade pudding!" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Baddies Burger House" />
+  <meta property="og:description" content="Come grab a smash-burger, hand cut fries & housemade pudding!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/logo.webp" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.webp" type="image/webp" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@900&family=Inconsolata:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <img src="images/logo.webp" alt="Baddies Burger House" class="navbar-logo" />
+      </a>
+      <div class="navbar-links">
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#locations" class="nav-link">Locations</a>
+        <a href="https://order.toasttab.com/egiftcards/baddies-burgers-1591-south-lumpkin-street-suite-a" target="_blank" rel="noopener noreferrer" class="nav-link">Gift Cards</a>
+        <a href="catering.html" class="nav-link">Catering</a>
+      </div>
+      <div class="navbar-actions">
+        <a href="https://eatbaddies.appfront.app/" target="_blank" rel="noopener noreferrer" class="btn-order">
+          Order Online
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+          <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+          <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#menu" class="mobile-link">Menu</a>
+      <a href="#locations" class="mobile-link">Locations</a>
+      <a href="https://order.toasttab.com/egiftcards/baddies-burgers-1591-south-lumpkin-street-suite-a" target="_blank" rel="noopener noreferrer" class="mobile-link">Gift Cards</a>
+      <a href="catering.html" class="mobile-link">Catering</a>
+      <a href="https://eatbaddies.appfront.app/" target="_blank" rel="noopener noreferrer" class="btn-order mobile-order">
+        Order Online
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <!-- Badge -->
+        <a href="#locations" class="hero-badge">
+          <span class="hero-badge-dot">
+            <span class="hero-badge-ping"></span>
+            <span class="hero-badge-dot-inner"></span>
+          </span>
+          Open now in Normaltown
+        </a>
+
+        <!-- Heading -->
+        <h1 class="hero-heading">
+          Smash<br />
+          <span class="text-red">BURGERS</span><br />
+          Done Right.
+        </h1>
+
+        <!-- Description -->
+        <p class="hero-description">Available for pick-up but best enjoyed with all your favorite people, family style.</p>
+
+        <!-- Buttons -->
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-dark">View Full Menu</a>
+          <a href="#locations" class="btn btn-outline">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            Find Location
+          </a>
+        </div>
+
+        <!-- Trust Badge -->
+        <div class="trust-badge">
+          <div class="trust-avatars">
+            <div class="trust-avatar">
+              <img src="images/hero-joe.png" alt="Customer" />
+            </div>
+            <div class="trust-avatar">
+              <img src="images/hero-family.png" alt="Customer" />
+            </div>
+            <div class="trust-avatar trust-avatar-count">
+              <span>+2K</span>
+            </div>
+          </div>
+          <span class="trust-text">Loved by locals in Athens</span>
+        </div>
+      </div>
+
+      <!-- Hero Images -->
+      <div class="hero-images">
+        <div class="polaroid polaroid-1">
+          <img src="images/hero-burger-2.webp" alt="Double Smash" />
+          <span class="polaroid-label">Double Smash</span>
+        </div>
+        <div class="polaroid polaroid-2">
+          <img src="images/hero-fries.webp" alt="Loaded Fries" />
+          <span class="polaroid-label">Loaded Fries</span>
+        </div>
+        <div class="polaroid polaroid-3">
+          <img src="images/hero-burger-1.webp" alt="The Triple Combo" />
+          <span class="polaroid-label">The Triple Combo</span>
+        </div>
+        <div class="polaroid polaroid-4">
+          <img src="images/hero-building.png" alt="Our Spot" />
+          <span class="polaroid-label">Our Spot</span>
+        </div>
+        <div class="polaroid polaroid-5">
+          <img src="images/hero-pudding.webp" alt="Sweet Treats" />
+          <span class="polaroid-label">Sweet Treats</span>
+        </div>
+        <div class="polaroid polaroid-6">
+          <img src="images/hero-loaded.png" alt="Saucy Goodness" />
+          <span class="polaroid-label">Saucy Goodness</span>
+        </div>
+        <div class="polaroid polaroid-7">
+          <img src="images/hero-joe.png" alt="Hot &amp; Fresh" />
+          <span class="polaroid-label">Hot &amp; Fresh</span>
+        </div>
+        <div class="polaroid polaroid-8">
+          <img src="images/hero-family.png" alt="Family Vibes" />
+          <span class="polaroid-label">Family Vibes</span>
+        </div>
+        <img src="images/puddin-text.png" alt="" class="hero-puddin-text" />
+
+        <!-- Decorative spinning circles -->
+        <div class="decorative-circle decorative-circle-1"></div>
+        <div class="decorative-circle decorative-circle-2"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MARQUEE BANNER ========== -->
+  <a href="https://eatbaddies.appfront.app/" target="_blank" rel="noopener noreferrer" class="marquee-banner">
+    <div class="marquee-track">
+      <div class="marquee-content">
+        <div class="marquee-item"><span>Smash Burgers</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Hand-Cut Fries</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Housemade Puddings</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <div class="marquee-item"><span>Smash Burgers</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Hand-Cut Fries</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Housemade Puddings</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <div class="marquee-item"><span>Smash Burgers</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Hand-Cut Fries</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Housemade Puddings</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <div class="marquee-item"><span>Smash Burgers</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Hand-Cut Fries</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Housemade Puddings</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <div class="marquee-item"><span>Smash Burgers</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Hand-Cut Fries</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Housemade Puddings</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <div class="marquee-item"><span>Smash Burgers</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Hand-Cut Fries</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Housemade Puddings</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <div class="marquee-item"><span>Smash Burgers</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Hand-Cut Fries</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Housemade Puddings</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <div class="marquee-item"><span>Smash Burgers</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Hand-Cut Fries</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Housemade Puddings</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <div class="marquee-item"><span>Smash Burgers</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Hand-Cut Fries</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Housemade Puddings</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+        <div class="marquee-item"><span>Smash Burgers</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Hand-Cut Fries</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Housemade Puddings</span><svg class="marquee-star" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#1c1917" stroke="#1c1917" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+      </div>
+    </div>
+  </a>
+
+  <!-- ========== MENU SECTION ========== -->
+  <section class="menu-section" id="menu">
+    <div class="menu-section-container">
+      <span class="section-label">Our Menu</span>
+      <h2 class="section-heading">Combos &amp; Smash Burgers</h2>
+      <p class="section-description">All combos come with fresh hand-cut fries &amp; a drink. Burgers come standard with American cheese, caramelized onions, Baddies pickles &amp; Baddies sauce.</p>
+
+      <div class="menu-card">
+        <!-- Tape decoration -->
+        <div class="tape tape-top"></div>
+
+        <!-- Rotating stamp -->
+        <img src="images/stamp.png" alt="" class="menu-stamp" />
+
+        <div class="menu-columns">
+          <!-- Left Column -->
+          <div class="menu-column menu-column-left">
+            <h3 class="menu-column-heading">COMBOS</h3>
+
+            <!-- Single Combo -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Single Combo</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">$9</span>
+              </div>
+              <div class="menu-item-details">
+                <p class="menu-item-description">One smash patty, fries + drink</p>
+                <span class="menu-item-note">Burger only: $6</span>
+              </div>
+            </div>
+
+            <!-- Double Combo -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <div class="menu-item-name-group">
+                  <span class="menu-item-name">Double Combo</span>
+                  <span class="menu-item-badge">POPULAR</span>
+                </div>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">$11</span>
+              </div>
+              <div class="menu-item-details">
+                <p class="menu-item-description">Two smash patties, fries + drink</p>
+                <span class="menu-item-note">Burger only: $8</span>
+              </div>
+            </div>
+
+            <!-- Triple Combo -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Triple Combo</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">$13</span>
+              </div>
+              <div class="menu-item-details">
+                <p class="menu-item-description">Three smash patties, fries + drink</p>
+                <span class="menu-item-note">Burger only: $10</span>
+              </div>
+            </div>
+
+            <p class="menu-fine-print">Gluten Free Bun Available +$3 &bull; All beef is cooked well-done unless specified</p>
+
+            <!-- Loaded Fries -->
+            <div class="loaded-fries-box">
+              <div class="loaded-fries-content">
+                <div class="menu-item-header">
+                  <span class="menu-item-name">Loaded Fries</span>
+                  <span class="menu-item-dots"></span>
+                  <span class="loaded-fries-price">$10</span>
+                </div>
+                <p class="menu-item-description">A mountain of fresh hand-cut fries topped with 2 smash patties, American cheese, caramelized onions &amp; Baddies sauce.</p>
+              </div>
+              <img src="images/loaded-fries-bg.png" alt="" class="loaded-fries-bg" />
+            </div>
+
+            <!-- Decorative fresh-cut image -->
+            <img src="images/fresh-cut.png" alt="" class="menu-fresh-cut" />
+          </div>
+
+          <!-- Right Column -->
+          <div class="menu-column menu-column-right">
+            <h3 class="menu-column-heading">SIDES &amp; DRINKS</h3>
+
+            <!-- Classic Fries -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Classic Fries</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">$3.00</span>
+              </div>
+              <p class="menu-item-description">Fresh hand-cut style</p>
+            </div>
+
+            <!-- Cajun Fries -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Cajun Fries</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">$3.50</span>
+              </div>
+              <p class="menu-item-description">Fresh hand-cut with cajun spice</p>
+            </div>
+
+            <!-- Coca-Cola Products -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Coca-Cola Products</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">$2.50</span>
+              </div>
+            </div>
+
+            <!-- Tea -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <span class="menu-item-name">Sweet / Unsweet Tea</span>
+                <span class="menu-item-dots"></span>
+                <span class="menu-item-price">$2.50</span>
+              </div>
+            </div>
+
+            <!-- Puddings Section -->
+            <div class="puddings-section">
+              <div class="puddings-badge">Sweet Treats</div>
+              <h4 class="puddings-heading">HOUSEMADE PUDDINGS</h4>
+              <div class="puddings-prices">
+                <div class="puddings-price-block">
+                  <span class="puddings-price-amount">$5</span>
+                  <span class="puddings-price-label">Cup</span>
+                </div>
+                <span class="puddings-divider"></span>
+                <div class="puddings-price-block">
+                  <span class="puddings-price-amount">$8</span>
+                  <span class="puddings-price-label">Pint</span>
+                </div>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <span class="menu-item-name">Banana Pudding</span>
+                </div>
+                <p class="menu-item-description">Housemade original recipe</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <span class="menu-item-name">Cookies-n-Creme</span>
+                </div>
+                <p class="menu-item-description">Housemade chocolate favorite</p>
+              </div>
+
+              <div class="menu-item">
+                <div class="menu-item-header">
+                  <span class="menu-item-name">Pudding of the Month</span>
+                </div>
+                <p class="menu-item-description">Christmas Tree Cake (GF)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Order Online Button -->
+        <div class="menu-order-btn-wrapper">
+          <a href="https://eatbaddies.appfront.app/" target="_blank" rel="noopener noreferrer" class="btn-order-pill">
+            ORDER ONLINE
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LOCATIONS SECTION ========== -->
+  <section class="locations-section" id="locations">
+    <div class="locations-container">
+      <span class="section-label">Find Us</span>
+      <h2 class="section-heading">LOCATIONS</h2>
+      <p class="section-description">Come visit us at one of our spots.</p>
+
+      <div class="locations-grid">
+
+        <!-- Gainesville -->
+        <div class="location-card fade-in-up">
+          <div class="location-image-wrapper">
+            <img src="images/loc-gainesville.png" alt="Gainesville location" class="location-image" />
+            <span class="location-badge">OPENING SOON</span>
+          </div>
+          <div class="location-info">
+            <h3 class="location-name">GAINESVILLE</h3>
+            <p class="location-address">125 Washington St NE</p>
+            <p class="location-address">Gainesville, GA 30501</p>
+          </div>
+        </div>
+
+        <!-- Five Points -->
+        <div class="location-card fade-in-up" style="transition-delay: 0.1s">
+          <div class="location-image-wrapper">
+            <img src="images/loc-fivepoints.png" alt="Five Points location" class="location-image" />
+          </div>
+          <div class="location-info">
+            <h3 class="location-name">FIVE POINTS</h3>
+            <p class="location-address">1591 South Lumpkin Street</p>
+            <p class="location-address">Athens, GA 30606</p>
+            <a href="tel:7068508331" class="location-phone">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              (706) 850-8331
+            </a>
+            <div class="location-hours">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <div>
+                <p>Mon-Sat 11am-9pm</p>
+                <p class="text-red">CLOSED SUNDAY</p>
+              </div>
+            </div>
+            <a href="https://www.instagram.com/eatbaddies/" target="_blank" rel="noopener noreferrer" class="location-instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              Instagram
+            </a>
+          </div>
+        </div>
+
+        <!-- Watkinsville -->
+        <div class="location-card fade-in-up" style="transition-delay: 0.2s">
+          <div class="location-image-wrapper">
+            <img src="images/loc-watkinsville.png" alt="Watkinsville location" class="location-image" />
+          </div>
+          <div class="location-info">
+            <h3 class="location-name">WATKINSVILLE</h3>
+            <p class="location-address">1011 Park Drive</p>
+            <p class="location-address">Watkinsville, GA 30677</p>
+            <a href="tel:7067056032" class="location-phone">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              706-705-6032
+            </a>
+            <div class="location-hours">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <div>
+                <p>Mon-Sat 11am-9pm</p>
+                <p class="text-red">CLOSED SUNDAY</p>
+              </div>
+            </div>
+            <a href="https://www.instagram.com/eatbaddies_watty/" target="_blank" rel="noopener noreferrer" class="location-instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              Instagram
+            </a>
+          </div>
+        </div>
+
+        <!-- Normaltown -->
+        <div class="location-card fade-in-up" style="transition-delay: 0.3s">
+          <div class="location-image-wrapper">
+            <img src="images/loc-normaltown.png" alt="Normaltown location" class="location-image" />
+          </div>
+          <div class="location-info">
+            <h3 class="location-name">NORMALTOWN</h3>
+            <p class="location-address">1307 Prince Ave</p>
+            <p class="location-address">Athens, GA 30606</p>
+            <a href="tel:7065218537" class="location-phone">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              706-521-8537
+            </a>
+            <div class="location-hours">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <div>
+                <p>Mon-Sat 11am-9pm</p>
+                <p class="text-red">CLOSED SUNDAY</p>
+              </div>
+            </div>
+            <a href="https://www.instagram.com/eatbaddies_normaltown/" target="_blank" rel="noopener noreferrer" class="location-instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              Instagram
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="images/footer-logo.webp" alt="Baddies Burger House" class="footer-logo" width="128" height="128" />
+        <p class="footer-tagline">SMASH BURGERS DONE RIGHT.</p>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="#menu" class="footer-link">Menu</a>
+        <a href="#locations" class="footer-link">Locations</a>
+        <a href="https://order.toasttab.com/egiftcards/baddies-burgers-1591-south-lumpkin-street-suite-a" target="_blank" rel="noopener noreferrer" class="footer-link">Gift Cards</a>
+        <a href="catering.html" class="footer-link">Catering</a>
+      </nav>
+
+      <div class="footer-legal">
+        <a href="#" class="footer-legal-link">Privacy Policy</a>
+        <span class="footer-legal-dot">&bull;</span>
+        <a href="#" class="footer-legal-link">Terms of Service</a>
+      </div>
+
+      <p class="footer-copyright">&copy; <span id="currentYear">2025</span> Baddies Burger House. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

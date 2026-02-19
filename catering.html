@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catering | Baddies Burger House</title>
+  <meta name="description" content="Bring the best smash burgers in town to your next event.">
+  <meta property="og:title" content="Catering | Baddies Burger House">
+  <meta property="og:description" content="Bring the best smash burgers in town to your next event.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/logo.webp">
+  <link rel="icon" href="images/favicon.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@900&family=Inconsolata:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <img src="images/logo.webp" alt="Baddies Burger House" class="navbar-logo" />
+      </a>
+      <div class="navbar-links">
+        <a href="index.html#menu" class="nav-link">Menu</a>
+        <a href="index.html#locations" class="nav-link">Locations</a>
+        <a href="https://order.toasttab.com/egiftcards/baddies-burgers-1591-south-lumpkin-street-suite-a" target="_blank" rel="noopener noreferrer" class="nav-link">Gift Cards</a>
+        <a href="catering.html" class="nav-link">Catering</a>
+      </div>
+      <div class="navbar-actions">
+        <a href="https://eatbaddies.appfront.app/" target="_blank" rel="noopener noreferrer" class="btn-order">
+          Order Online
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+          <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+          <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html#menu" class="mobile-link">Menu</a>
+      <a href="index.html#locations" class="mobile-link">Locations</a>
+      <a href="https://order.toasttab.com/egiftcards/baddies-burgers-1591-south-lumpkin-street-suite-a" target="_blank" rel="noopener noreferrer" class="mobile-link">Gift Cards</a>
+      <a href="catering.html" class="mobile-link">Catering</a>
+      <a href="https://eatbaddies.appfront.app/" target="_blank" rel="noopener noreferrer" class="btn-order mobile-order">
+        Order Online
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="catering-main">
+    <div class="catering-content">
+
+      <!-- Header -->
+      <div class="catering-header fade-in-up">
+        <h1 class="catering-title">BADDIES CATERING</h1>
+        <p class="catering-desc">Bring the best smash burgers in town to your next event. Fill out the form below and let's get the party started.</p>
+      </div>
+
+      <!-- Form Card -->
+      <div class="catering-card fade-in-up">
+        <form id="cateringForm" class="catering-form">
+
+          <!-- Row 1: First Name / Last Name -->
+          <div class="form-grid-2col">
+            <div class="form-group">
+              <label class="form-label">First Name</label>
+              <input type="text" name="firstName" placeholder="Jane" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Last Name</label>
+              <input type="text" name="lastName" placeholder="Doe" class="form-input" required>
+            </div>
+          </div>
+
+          <!-- Row 2: Email / Phone -->
+          <div class="form-grid-2col">
+            <div class="form-group">
+              <label class="form-label">Email</label>
+              <input type="email" name="email" placeholder="jane@example.com" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Phone</label>
+              <input type="tel" name="phone" placeholder="(555) 555-5555" class="form-input" required>
+            </div>
+          </div>
+
+          <!-- Row 3: Newsletter Checkbox -->
+          <div class="form-group">
+            <label class="checkbox-label">
+              <input type="checkbox" name="newsletter" class="form-checkbox"> Sign up for news and updates
+            </label>
+          </div>
+
+          <!-- Row 4: Event Date / Delivery Method -->
+          <div class="form-grid-2col">
+            <div class="form-group">
+              <label class="form-label">Event Date</label>
+              <input type="date" name="date" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Delivery Method</label>
+              <select name="deliveryMethod" class="form-select" required>
+                <option value="" disabled selected>Select method</option>
+                <option value="pickup">Pick-Up</option>
+                <option value="delivery">Delivery</option>
+                <option value="onsite">On Site Cooking</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Row 5: Event Details -->
+          <div class="form-group">
+            <label class="form-label">Event Details</label>
+            <textarea name="details" placeholder="Tell us about your event (guest count, special requests, etc.)" class="form-textarea" rows="5" required></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="btn-submit">Send Inquiry</button>
+
+        </form>
+
+        <!-- reCAPTCHA Note -->
+        <p class="recaptcha-note">Protected by reCAPTCHA. <a href="#">Privacy</a> - <a href="#">Terms</a></p>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
